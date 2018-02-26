@@ -1,0 +1,14 @@
+{
+  "name": "express-playground",
+  "version": "1.0.0",
+  "description": "A web server to try out new things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
