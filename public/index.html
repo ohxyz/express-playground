@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Title</title>
+    <meta name="description" content="Basic HTML5 template">
+    <meta name="author" content="My Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Hello</h1>
+    <script>
+
+        var url4xx = '/status/404';
+        var url3xx = '/status/301';
+        var url2xx = '/status/201';
+
+        $.ajax( {
+
+            url: url2xx,
+
+        } ).done( function () { 
+
+            console.log( 'done' );
+ 
+        } ).fail( function () {
+
+            console.error( 'fail' );
+
+        } ).always( function () {
+
+            console.log( 'always' );
+
+        } );
+
+    </script>
+</body>
+</html>
