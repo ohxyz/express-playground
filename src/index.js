@@ -10,6 +10,8 @@ app.get( '/status/:code(\\d+)', ( request, response ) => {
 
     let statusCode = request.params.code;
 
+    console.log( request );
+
     response
         .status( statusCode )
         .send( 'HTTP status code: ' + statusCode );
